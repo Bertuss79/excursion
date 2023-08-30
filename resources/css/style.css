@@ -1,33 +1,30 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 50px;
-    background-color: #f7f7f7;
-}
-        
-h1, h2 {
-    color: #333;
+  background-color: black;
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+  color: white;
 }
 
-#iphone-frame {
-    width: 300px;
-    height: 600px;
-    margin: 20px auto;
-    background: url('path-to-iphone-frame-image.jpg') no-repeat center;
-    background-size: cover;
-    position: relative;
+.cta {
+  color: aquamarine;
+  font-size: 16px;
 }
 
-#iphone-screen {
-    width: 280px; /* Adjust as per the frame image */
-    height: 480px; /* Adjust as per the frame image */
-    position: absolute;
-    top: 60px; /* Adjust as per the frame image */
-    left: 10px; /* Adjust as per the frame image */
-    background: url('path-to-stock-video.jpg') no-repeat center;
-    background-size: cover;
+h1 {
+  font-size: 50px;
+  font-weight: normal;
 }
 
-img {
-    max-width: 100%;
+h2 {
+  font-size: 42px;
+  font-weight: 300;
 }
+
+p {
+  font-size: 21px;
+  color: gray;
+}
+
+.footer {
+  text-align: right;
+} 
